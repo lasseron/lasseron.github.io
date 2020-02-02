@@ -1,0 +1,64 @@
+body {
+    background-color: #fff;
+    color: #333;
+    font-family: 'Nunito', sans-serif;
+    font-size: 1.2rem;
+}
+
+a, a:hover {
+    color: #e649df; /* pink */
+}
+
+/* Redefine Bootstraps rounded for more pixels */
+.rounded {
+    border-radius: 10px !important;
+}
+
+.bg-black {
+    background-color: black;
+    /* background-color: #333; */
+}
+
+.overflow-hidden {
+    overflow: hidden;
+}
+
+#logo img {
+    opacity: 0.85;
+    max-height: 5rem;
+}
+
+#social-links a {
+    margin-left: 1rem;
+}
+#social-links a:first-child {
+    margin-left: 0;
+}
+#social-links img {
+    opacity: 0.85;
+    height: 55px;
+    text-align: center;
+    /* border-radius: 50%; */
+}
+#social-links img:hover {
+    opacity: 1;
+    /* background-color: #e649df; */
+}
+
+footer {
+    color: #888;
+    font-size: 0.8rem;
+}
+
+/* Up to MD */
+@media (max-width: 768px) {
+
+    #logo, #social-links {
+        align-content: space-around;
+    }
+    #social-links img {
+        margin-top: 0.5rem;
+        height: 50px;
+    }
+
+}
