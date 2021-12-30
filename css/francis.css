@@ -1,12 +1,16 @@
 body {
-    background-color: #fff;
-    color: #333;
+    background-color: #e2b4f4;
+    color: #4d114a;
     font-family: 'Nunito', sans-serif;
     font-size: 1.2rem;
 }
 
-a, a:hover {
-    color: #e649df; /* pink */
+a {
+    color: #f018e6; /* pink */
+}
+
+a:hover {
+    color: #f802ec; /* pink */
 }
 
 /* Redefine Bootstraps rounded for more pixels */
@@ -46,7 +50,7 @@ a, a:hover {
 }
 
 footer {
-    color: #888;
+    color: #575757;
     font-size: 0.8rem;
 }
 
