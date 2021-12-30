@@ -13,6 +13,39 @@ a:hover {
     color: #f802ec; /* pink */
 }
 
+img {
+    animation: fadeIn ease 800ms;
+    -webkit-animation: fadeIn ease 800ms;
+    -moz-animation: fadeIn ease 800ms;
+    -o-animation: fadeIn ease 800ms;
+    -ms-animation: fadeIn ease 800ms;
+}
+
+    @keyframes fadeIn {
+        0% {opacity:0;}
+        100% {opacity:1;}
+    }
+
+    @-moz-keyframes fadeIn {
+        0% {opacity:0;}
+        100% {opacity:1;}
+    }
+
+    @-webkit-keyframes fadeIn {
+        0% {opacity:0;}
+        100% {opacity:1;}
+    }
+
+    @-o-keyframes fadeIn {
+        0% {opacity:0;}
+        100% {opacity:1;}
+    }
+
+    @-ms-keyframes fadeIn {
+        0% {opacity:0;}
+        100% {opacity:1;}
+    }
+
 /* Redefine Bootstraps rounded for more pixels */
 .rounded {
     border-radius: 10px !important;
