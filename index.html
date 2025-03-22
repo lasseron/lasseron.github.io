@@ -38,18 +38,11 @@
     <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v4.0&appId=231236120224007&autoLogAppEvents=1"></script>
     <!-- End Facebook like -->
 
-    <div class="container mt-4">
-        <div class="embed-responsive embed-responsive-16by9 rounded">
-            <!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/MZlUBsBCdGA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
-            <iframe class="rounded" width="560" height="315" src="https://www.youtube.com/embed/jToZbdDRtpI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        </div>
-    </div> <!-- container -->
-
-    <div class="container mb-5">
+    <div class="container mb-3">
         <div class="row">
             <!-- logo -->
-            <div id="logo" class="d-flex justify-content-center col-lg-4 justify-content-lg-start pl-lg-4 mt-4">
-                <img class="img-fluid my-3" src="img/francis.svg" alt="Francis">
+            <div class="d-flex justify-content-center col-lg-4 justify-content-lg-start pl-lg-4 mt-4">
+                <div id="logo"></div>
             </div>
             <!-- social media -->
             <div id="social-links" class="d-flex justify-content-center col-lg-8 mt-3 mt-lg-4 pr-lg-4 mb-3 mb-lg-0 justify-content-lg-end flex-wrap align-items-center">
@@ -72,10 +65,21 @@
                     <img src="img/icon-soundcloud.svg" alt="Francis on Soundcloud">
                 </a>
             </div>
-            <!-- spotify player -->
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="embed-responsive embed-responsive-16by9 rounded">
+            <!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/MZlUBsBCdGA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
+            <iframe class="rounded" width="560" height="315" src="https://www.youtube.com/embed/jToZbdDRtpI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+    </div> <!-- container -->
+
+    <div class="container mb-5">
+        <div class="row">
             <div class="col-lg-4 mt-4">
                 <div class="d-block h-100 bg-black rounded overflow-hidden p-0">
-                    <iframe class="d-block rounded" src="https://open.spotify.com/embed/artist/7KpxzY6cgkIHbgUN9iyYvN?utm_source=generator&theme=0" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+                    <iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/887371525&color=%2329251e&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/francisnoises" title="Francis" target="_blank" style="color: #cccccc; text-decoration: none;">Francis</a> · <a href="https://soundcloud.com/francisnoises/lullaby" title="Lullaby" target="_blank" style="color: #cccccc; text-decoration: none;">Lullaby</a></div>
                 </div>
             </div>
             <div class="col-lg-8 mt-4">
@@ -110,14 +114,20 @@
                     <div class="fb-like" data-href="https://www.facebook.com/francisnoises/" data-width="" data-layout="button_count" data-action="like" data-size="large" data-show-faces="true" data-share="false"></div>
                 </div>
             </div>
-            <!-- <div class="col-6 col-sm-4 mt-4">
+            <!-- spotify player -->
+            <!--div class="col-lg-4 mt-4">
+                <div class="d-block h-100 bg-black rounded overflow-hidden p-0">
+                    <iframe class="d-block rounded" src="https://open.spotify.com/embed/artist/7KpxzY6cgkIHbgUN9iyYvN?utm_source=generator&theme=0" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+                </div>
+            </!--div>
+             <div class="col-6 col-sm-4 mt-4">
                 <img class="img-fluid rounded" src="img/i.jpg" alt="Francis">
-            </div>             -->
+            </div>
         </div> <!-- row -->
     </div> <!-- container -->
 
     <footer>
-        <div class="container my-4">
+        <div class="container mt-5 mb-4">
             <i class="fas fa-heart mr-1 mr-lg-2"></i> Photo: Martti Lepmets &middot; Visuals: Lauri Miller &middot; Video: Teele Dunkley, ERR &middot; Live sound: Martin Sõna &middot; Mix: Hyrr Innokent Vainola, Erko Niit &middot; Mastering: Lauri Liivak &middot; Special thanks: Andre Maaker, Marek Talts, Martti Tärn, Drive It Up, Kuressaare Kitarrilaager
         </div>
     </footer>
