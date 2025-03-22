@@ -63,7 +63,7 @@ img {
 #logo {
     width: 200px;
     height: 5rem;
-    background: linear-gradient(231deg,  red, rgb(178 0 136) 0%, rgb(30 92 213));
+    background: linear-gradient(231deg, rgb(178, 0, 136) 0%, rgb(30, 92, 213) 100%);
     -webkit-mask: url('https://francisnoises.com/img/francis.svg') no-repeat left;
     mask: url('https://francisnoises.com/img/francis.svg') no-repeat left;
     mask-size: contain;
